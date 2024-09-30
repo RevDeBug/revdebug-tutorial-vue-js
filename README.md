@@ -11,6 +11,10 @@ git clone https://github.com/RevDeBug/revdebug-tutorial-vue-js
 
     npm config set @revdebug:registry https://nexus.revdebug.com/repository/npm/
 
+Or you can just set the repository for a single project by adding an .npmrc file with the line:
+
+    @revdebug:registry=https://nexus.revdebug.com/repository/npm/
+
 #### Install dependancies (including RevDeBug):
 
     npm install 
